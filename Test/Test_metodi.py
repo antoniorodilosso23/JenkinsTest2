@@ -3,7 +3,7 @@ from src.Metodi import saluta, somma
 
 class MyTestCase(unittest.TestCase):
     def test_saluta(self):
-        self.assertEqual(saluta("Antonio"), "Ciao, Antonio!")
+        self.assertEqual(saluta("Antonietto"), "Ciao, Antonietto!")
 
     def test_somma(self):
         self.assertEqual(somma(2, 3), 5)
